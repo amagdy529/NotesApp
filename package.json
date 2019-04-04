@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/amagdy529/NotesApp/issues"
   },
-  "homepage": "https://github.com/amagdy529/NotesApp#readme"
+  "homepage": "https://github.com/amagdy529/NotesApp#readme",
+  "dependencies": {
+    "validator": "^10.11.0"
+  }
 }

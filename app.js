@@ -1,8 +1,14 @@
-
+const validator = require('validator')
 // const getNotes = require('./utils.js')
 const getNotes = require('./notes.js')
+
 const msg = getNotes()
-console.log(msg)
+
+
+/** logs */
+// console.log(msg)
+console.log(validator.isEmail('test.com'))
+
 
 
 // const fs = require('fs')
