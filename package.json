@@ -1,0 +1,19 @@
+{
+  "name": "notesapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amagdy529/NotesApp.git"
+  },
+  "author": "Ahmed Magdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amagdy529/NotesApp/issues"
+  },
+  "homepage": "https://github.com/amagdy529/NotesApp#readme"
+}
