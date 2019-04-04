@@ -1,0 +1,1 @@
+console.log('console inside utils.js\n')
