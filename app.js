@@ -1,7 +1,8 @@
 
-const getNotes = require('./utils.js')
-
-console.log(getNotes())
+// const getNotes = require('./utils.js')
+const getNotes = require('./notes.js')
+const msg = getNotes()
+console.log(msg)
 
 
 // const fs = require('fs')
