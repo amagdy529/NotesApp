@@ -10,12 +10,22 @@ const msg = getNotes()
 // console.log(msg)
 console.log(validator.isEmail('test.com\n'))
 
+console.log(process.argv[3])
+
+const command = process.argv[2]
+if (command === 'add') {
+    console.log('adding notes')
+}else if (command === 'remove') {
+    console.log('removing notes')
+}
+
+
 // Nest styles of the same type even (color, underline, background)
-console.log(chalk.green(
-    'I am a green line ' +
-    chalk.blue.underline.bold('with a blue substring') +
-    ' that becomes green again!'
-));
+// console.log(chalk.green(
+//     'I am a green line ' +
+//     chalk.blue.underline.bold('with a blue substring') +
+//     ' that becomes green again!'
+// ));
 
 
 // const fs = require('fs')
