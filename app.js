@@ -1,7 +1,7 @@
 
-const add = require('./utils.js')
+const getNotes = require('./utils.js')
 
-
+console.log(getNotes())
 
 
 // const fs = require('fs')
