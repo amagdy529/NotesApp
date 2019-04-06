@@ -27,6 +27,29 @@ yargs.command({
         console.log('Body: ' + argv.body)
     }
 })
+
+yargs.command({
+    command: 'remove',
+    describe: 'remove a note',
+    builder: {
+        title: {
+            describe: 'Note title',
+            demandOption: true,
+            type: 'string'
+        },
+        // body: {
+        //     describe: 'Note body',
+        //     demandOption: true,
+        //     type: 'string'
+        // }
+    },
+    handler: function (argv) {
+        notes.removeNote(argv.title)
+        // notes.addNote(argv.title,argv.body)
+        console.log('Title: ' + argv.title)
+        // console.log('Body: ' + argv.body)
+    }
+})
     
 yargs.parse()
 // console.log(yargs.argv)
